@@ -1,0 +1,13 @@
+0.  an artificial word that is a synonym for silicosis - a lung disease caused by inhaling fine ash.
+1.  it gets the resource usage for the script.
+2.  16
+3.  for easy of reading the code as well as consistancy of script
+4.  The code iterates until the end of the file through each character in the file. Words are created by identifying the characters between spaces.
+    If the characters are either part of the alphabet or apostrophies, then they are appended to current word. If the character that is grabbed
+    corresponds to a digit, then the word is skipped over and a new word is started. Once a word has been completed without being broken by a digit,
+    it is passed through the check function to determine if it is a valid word. If the word is invalid, it is printed and the misspelled word count
+    is incremented.
+5.  If fscanf was used, the code would still need to check each character to determine if it met the right criteria, effectively scanning every
+    charater in the file twice. This would double the runtim of the script. By iterating through one character at a time, the code can then perform
+    the additional actions as needed.
+6.  In order to better telegraph solutions that can be implemented by the students.
